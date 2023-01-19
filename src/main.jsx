@@ -5,11 +5,12 @@ import { CounterApp } from "./01-useState/CounterApp";
 import { CounterwithCustomHook } from "./01-useState/CounterwithCustomHook";
 import { FormWithCustomHook } from "./02-useEffect/FormWithCustomHook";
 import { SimpleForm } from "./02-useEffect/SimpleForm";
+import { FocusScreen } from "./04-useRef/FocusScreen";
 // import { HooksApp } from "./HooksApp";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <MultipleCustomHooks />
+    <FocusScreen />
   </React.StrictMode>
 );
