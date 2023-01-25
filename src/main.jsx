@@ -10,6 +10,7 @@ import { Layout } from "./05-useLayoutEffect/Layout";
 import { Memorize } from "./06-memo/Memorize";
 import { CallbackHook } from "./06-memo/CallbackHook";
 import { Padre } from "./07-tarea-memo/Padre";
+import { TodoApp } from "./08-reducer/TodoApp";
 // import { HooksApp } from "./HooksApp";
 
 import "./08-reducer/intro-reducer";
@@ -18,6 +19,6 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>
 );
