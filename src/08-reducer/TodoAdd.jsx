@@ -9,7 +9,7 @@ export const TodoAdd = ({ onNewTodo }) => {
     event.preventDefault();
     if (description.length <= 1) return;
     const newTodo = {
-      donde: false,
+      done: false,
       id: new Date().getTime(),
       description,
     };
