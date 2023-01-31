@@ -32,5 +32,12 @@ export const useTodo = () => {
     /*  console.log(id); */
   };
 
-  return { todos, handleNewTodo, handleDeleteTodo, handleToggleTodo };
+  return {
+    todos,
+    handleNewTodo,
+    handleDeleteTodo,
+    handleToggleTodo,
+    todosCount: todos.length,
+    pendingTodosCount: todos.filter((todo) => todo.done).length,
+  };
 };
